@@ -1,0 +1,26 @@
+#app {
+  display: flex;
+  flex-direction: column;
+  gap: 1ch;
+}
+
+.dropdown-content {
+  display: none;
+}
+.show {
+  display: block;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+
+  list-style-type: none;
+  border: 1px solid;
+  border-radius: 8px;
+
+  min-height: 1ch;
+  width: fit-content;
+  padding: 1ch;
+  gap: 1ch;
+}
